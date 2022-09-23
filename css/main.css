@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.nav__width {
+    width: 100%;
+    height: 3px;
+    border: 1px solid #FF7500;
+    background: #FF7500;
+}
+
+.nav__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    max-width: 227px;
+    width: 100%;
+    padding: 24px 0;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 33px;
+    align-self: center;
+}
+
+.nav__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: .5s;
+    color: #000000;
+}
+
+.nav__link:hover {
+    color: #FF7500;
+    opacity: 0.6;
+    border-bottom: 2px solid #FF7500;
+}
+
+.nav__link:active {
+    background: #FF7500;
+    color: white;
+}
+
+.header {
+    background: #252420;
+    height: 488px;
+    overflow: hidden;
+    margin: 110px 0;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header__span {
+    margin: 80px 0;
+    width: 80px;
+    height: 3px;
+    border: 1px solid #FF7500;
+    background: #FF7500;
+}
+
+.header__h1 {
+    max-width: 400px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+
+
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+
+}
+
+.header__p {
+    width: 387px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 20px 0;
+
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+
+}
+
+.btn {
+    max-width: 150px;
+    padding: 7px;
+    background: #FF7500;
+    color: #FFFFFF;
+    border: 1px solid #FF7500;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+.header__img {
+    max-width: 510px;
+    height: 610px;
+    width: 100%;
+    padding: 40px 0;
+    position: absolute;
+    left: 740px;
+    overflow: hidden;
+    border: 1px;
+    border-radius: 40px;
+}
+
+.main {
+    margin: 110px 0;
+}
+
+.span {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__h2 {
+    width: 435px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    /* or 86px */
+
+    letter-spacing: 0.5px;
+
+    color: #000000;
+
+}
+
+.boxs {
+    display: flex;
+    justify-content: space-between;
+    padding: 97px 0;
+}
+
+.box__h4 {
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    padding: 32px 0 12px 0;
+
+    letter-spacing: 0.5px;
+
+    color: #000000;
+
+}
+
+.box__p {
+    width: 314px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    letter-spacing: 0.5px;
+
+    color: #000000;
+
+}
+
+.box img {
+    max-width: 100px;
+    height: 100px;
+    width: 100%;
+}
+
+.main__sale {
+    margin: 200px 0 100px 0;
+    border: 1px solid #252420;
+    background-color: #252420;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+    position: relative;
+}
+.sale__text{
+    display: flex;
+    flex-direction: column;
+    row-gap:24px ;
+}
+
+.sale__text h2 {
+    width: 453px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    /* or 48px */
+
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+}
+
+.sale__text p {
+    width: 440px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+}
+.sale__img img {
+    position: absolute;
+    left: 620px;
+}
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.icons{
+    align-self: center;
+}
+.footer__end{
+    width: 100%;
+    height: 2px;
+    border: 2px solid rgb(156, 151, 151);
+    margin: 40px 0;
+}
+.icons img {
+    
+    padding: 0 6px ;
+}
+.footer__nav-end{
+    display: flex;
+    column-gap: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    transition: .5s;
+}
+.box__p{
+    color: #FF7500;
+}
+.box p:hover{
+    color: #FF7500;
+}
